@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        Toast.makeText(this, "aaa", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "bbb", Toast.LENGTH_SHORT).show();
 
         binding.btn.setOnClickListener(view -> clickBtn());
         binding.btn2.setOnClickListener(view -> clickBtn2());
